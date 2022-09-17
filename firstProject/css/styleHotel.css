@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+nav {
+  background-color: #333333;
+  width: 100%;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+ul li {
+  margin-left: 40px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+#logo {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: handwriting, cursive;
+}
+ul li a {
+  font-size: 17px;
+  display: inline-block;
+  padding: 15px 18px;
+  transition: 0.6s;
+}
+ul li a:hover,
+.activ {
+  background-color: #e9d88a1c;
+  color: #e9d88b;
+}
+/*________________new___section_________________________*/
+
+#contentSec {
+  height: calc(100vh - 48px);
+  background-image: url(../img/hotel.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.layer {
+  height: 100%;
+  width: 100%;
+  background-color: hsla(0, 1%, 35%, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contentSec .container {
+  text-align: center;
+}
+#contentSec .container p {
+  margin: 15px 0;
+  font-size: 20px;
+  line-height: 2em;
+  color: white;
+}
+#contentSec .container h1 {
+  font-size: 48px;
+  color: white;
+}
+#contentSec .container h1 span {
+  color: rgb(233, 215, 138);
+}
+#contentSec .container button {
+  width: 180px;
+  font-size: 18px;
+  padding: 13px 0;
+  border-width: 0;
+  border-radius: 25px;
+  background-color: #333;
+  color: white;
+  transition: 0.5s;
+}
+#contentSec .container button:hover {
+  background-color: #49463a;
+  color: rgb(233, 215, 138);
+}
+/*________________new___section_________________________*/
+#halfSec {
+  display: flex;
+  height: 54vh;
+}
+#halfSec #leftSide,
+#halfSec #rightSide {
+  width: 50%;
+}
+#halfSec #rightSide {
+  background-color: red;
+  background-image: url(../img/room.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+#halfSec #leftSide {
+  background-color: #333;
+  text-align: center;
+  color: white;
+}
+#halfSec #leftSide h1 span {
+  color: rgb(233, 215, 138);
+}
+#halfSec #leftSide h1 {
+  font-size: 32px;
+  margin-top: 45px;
+}
+#halfSec #leftSide p {
+  font-size: 18px;
+  line-height: 2em;
+  margin: 30px 40px;
+}
+#halfSec #leftSide button {
+  width: 180px;
+  font-size: 18px;
+  padding: 13px 0;
+  border-width: 0;
+  border-radius: 25px;
+  background-color: white;
+  transition: 0.5s;
+}
+#halfSec #leftSide button:hover {
+  background-color: rgb(233, 215, 138);
+  color: #333;
+}
+/*________________new___section_________________________*/
+#thirdPart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38vh;
+}
+#thirdPart div {
+  height: 100%;
+  width: 33.33333333%;
+  text-align: center;
+  padding: 25px;
+  transition: 0.4s;
+  color: #333;
+}
+#thirdPart div:hover {
+  background-color: rgb(233, 215, 138);
+  color: #333;
+}
+
+#thirdPart div i {
+  font-size: 40px;
+  margin-top: 10px;
+}
+#thirdPart div h1 {
+  margin: 20px 0;
+  font-size: 28px;
+}
+#thirdPart div p {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+footer a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+footer {
+  height: 8vh;
+  background-color: rgb(70, 68, 68);
+  font-size: 14px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

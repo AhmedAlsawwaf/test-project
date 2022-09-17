@@ -1,0 +1,57 @@
+#contactSec {
+  height: calc(100vh - 50px);
+  overflow: hidden;
+}
+#TitleCon {
+  font-size: 38px;
+  margin: 45px;
+  color: #333;
+}
+
+.inputContent {
+  margin: 25px 45px;
+}
+.inputContent label {
+  font-size: 20px;
+}
+.inputContent input,
+.inputContent textarea {
+  padding: 5px;
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+#contactInfo {
+  background-color: #333;
+}
+#contactInfo .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+#contactInfo .info {
+  height: 100%;
+  width: 33.33333333%;
+  text-align: center;
+  padding: 25px;
+  transition: 0.4s;
+  color: white;
+}
+#contactInfo .info i {
+  font-size: 42px;
+  margin-top: 20px;
+}
+#contactInfo .info h1 {
+  font-size: 23px;
+  margin: 20px 0;
+}
+#contactInfo .info p {
+  font-size: 14px;
+  line-height: 1.6em;
+  margin-top: 10px;
+}
