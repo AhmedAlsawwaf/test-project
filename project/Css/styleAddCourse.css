@@ -1,0 +1,97 @@
+
+  .firsthalf{
+      width: 66%;
+  }
+  .inputContent {
+    display: flex;
+    align-items: center;
+    margin: 25px 45px;
+  }
+  
+  .inputContent input{
+    padding: 5px;
+    width: 250px;
+    height: 35px;
+    font-size: 16px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  .inputContent .radIn{
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      margin-right: -50px;
+  }
+  .inputContent:nth-child(6) input{
+      width: 20px;
+      padding: 0;
+  }
+  .inputContent button{
+      width: 100px;
+      height: 35px;
+      font-size: 14px;
+  }
+  .inputContent:nth-child(8) span{
+      margin-left: 10px;
+      font-size: 14px;
+      font-weight: normal;
+  }
+  .inputContent:nth-child(9){
+      align-items: flex-start;
+  }
+  .inputContent:nth-child(9) input{
+      height: 120px;
+      width: 250;
+  }
+  .inputContent:nth-child(9) label{
+      margin-top: 15px;
+  }
+  #supBut button{
+      width: 250px;
+      height: 35px;
+      font-size: 16px;
+      color: white;
+      border-radius: 10px;
+  }
+  #supBut button:first-child{
+    background-color: green;
+    border: none;
+  }
+  #supBut button:last-child{
+    background-color: red;
+    border: none;
+    margin-left: 100px;
+}
+#supBut{
+    margin-bottom: 100px;
+}
+.sechalf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34%;
+}
+.sechalf img{
+    margin-top: -100px;
+    width: 500px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+.flxcont{
+    display: flex;
+}
+#file_attachment,
+#url_attachment{
+    display: none;
+}
+
+/* .disblock{
+    display: block;
+}
+.disnone{
+    display: none;
+} */

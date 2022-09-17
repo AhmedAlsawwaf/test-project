@@ -1,0 +1,109 @@
+<!-- <!DOCTYPE html> -->
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/styleMain.css">
+    <link rel="stylesheet" href="css/styleAddCourse.css">
+    <title>Add Course</title>
+</head>
+
+<body>
+
+    <section id="navSec">
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="index.html">Personal Infomation</a></li>
+                    <li><a href="Courses.html">Courses Information</a></li>
+                    <li><a href="exp.html">Experiences Information</a></li>
+                    <li><a href="AddCourse.html" class="activ">Add Course</a></li>
+                    <li><a href="AddExp.html">Add Experiences</a></li>
+                </ul>
+                <a id="logo" target="_blank" href="http://www.alazhar.edu.ps/arabic/index.asp"></a>
+            </div>
+        </nav>
+    </section>
+    <div class="container">
+        <div class="flxcont">
+            <div class="firsthalf">
+                <form>
+                    <div class="inputContent">
+                        <label>Course Name:</label>
+                        <input type="text" class="in" name="CourseName" >
+                    </div>
+                    <div class="inputContent">
+                        <label>Number of Hours:</label>
+                        <input type="number" class="in" name="HoursNum" >
+                    </div>
+                    <div class="inputContent">
+                        <label>Start Date:</label>
+                        <input type="date" class="in" name="StartDate">
+                    </div>
+                    <div class="inputContent">
+                        <label>End Date:</label>
+                        <input type="date" class="in" name="EndDate">
+                    </div>
+                    <div class="inputContent">
+                        <label>Institution:</label>
+                        <input type="text" class="in" name="StartDate">
+                    </div>
+                    <div class="inputContent">
+                        <label>Attachment:</label>
+                        <div class="radIn">
+                            <input id="x" type="radio" name="Attachment" value="File" required>
+                            <label for="x">File</label>
+                        </div>
+                        <div class="radIn">
+                            <input id="y" type="radio" name="Attachment" value="Url" required>
+                            <label for="y">URL</label>
+                        </div>
+
+
+                    </div>
+                    <div id="url_attachment" class="inputContent" >
+                        <label>URL:</label>
+                        <input id="u" type="url" class="in" name="">
+                    </div>
+                    <div id="file_attachment" class="inputContent">
+                        <label>File:</label>
+                        <button id="f" >Choose File</button>
+                        <span>No file chosen</span>
+                    </div>
+                    <div class="inputContent">
+                        <label>Notes:</label>
+                        <input type="text" class="in" name="StartDate">
+                    </div>
+                    <div id="supBut">
+                        <button>Save</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="sechalf">
+                <img src="img/course.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <script>
+        
+        document.getElementById('x').onclick= function () {
+                document.getElementById('file_attachment').style.display = 'flex';
+                document.getElementById('url_attachment').style.display = 'none';
+                document.getElementById("y").required = false;
+
+        }
+            document.getElementById('y').onclick= function () {
+                document.getElementById('file_attachment').style.display = 'none';
+                document.getElementById('url_attachment').style.display = 'flex';
+                document.getElementById("x").required = false;
+
+        }
+
+    
+    </script>
+
+</body>

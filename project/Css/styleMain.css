@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family: Tahoma;
+  }
+   
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  #navSec{
+    font-family: 'Comic sans MS';
+  }
+  
+  nav {
+    background-color: #00BAFF;
+    width: 100%;
+  }
+  nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav #logo{
+    background-image: url(../img/Logo_White.png);
+    background-size: cover;
+    width: 54px;
+    height: 54px;
+    margin: 8px;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  ul li {
+    margin-left: 40px;
+  }
+  ul li a {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 18px;
+    transition: 0.5s;
+  }
+  ul li a:hover,
+  .activ {
+    font-weight: normal;
+    color: white;
+  }
+  /*--------------------------------------------------- */
+  #cv{
+    display: flex;
+  }
+  #ContentInfo{   
+    width: 50%;
+    height: calc(100vh- 68px);
+
+  }
+  .mainTitle{
+    width: 100%;
+
+  }
+  .mainTitle h1{
+    font-size: 40px;
+    font-family: 'Trebuchet MS';
+    margin: 20px 0;
+  }
+  .inputContent{
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+  }
+  .inputContent label{
+    width: 150px;
+    margin-right: 50px;
+  }
+  .inputContent p{
+    font-weight: bold;
+  }
+  #ImgContainer{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: calc(100vh - 68px);
+  }
+  #ImgContainer img{
+    margin-top: 200px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+
